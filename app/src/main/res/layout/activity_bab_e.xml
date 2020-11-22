@@ -22,10 +22,10 @@
         android:id="@+id/scrollView2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="300dp"
         android:paddingLeft="8dp"
         android:paddingRight="8dp"
-        android:paddingBottom="200dp"
+        android:paddingBottom="300dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -42,20 +42,21 @@
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="241dp"
-        android:layout_height="114dp"
-        android:layout_marginBottom="2dp"
+        android:layout_width="170dp"
+        android:layout_height="192dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
         app:layout_constraintBottom_toTopOf="@+id/scrollView2"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView13"
+        app:layout_constraintTop_toBottomOf="@+id/back_e"
         app:srcCompat="@drawable/hunt" />
 
     <TextView
         android:id="@+id/textView13"
-        android:layout_width="334dp"
-        android:layout_height="75dp"
-        android:layout_marginTop="2dp"
+        android:layout_width="330dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
         android:fontFamily="@font/chewy"
         android:text="Corak kehidupan Masyarakat Masa Pra-aksara "
         android:textAlignment="center"

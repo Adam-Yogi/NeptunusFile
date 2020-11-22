@@ -22,10 +22,10 @@
         android:id="@+id/scrollView2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="300dp"
         android:paddingLeft="8dp"
         android:paddingRight="8dp"
-        android:paddingBottom="200dp"
+        android:paddingBottom="300dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -42,13 +42,12 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="263dp"
-        android:layout_height="128dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.398"
+        android:layout_width="169dp"
+        android:layout_height="219dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        app:layout_constraintTop_toBottomOf="@+id/back_C"
         app:srcCompat="@drawable/woman" />
 
     <TextView
