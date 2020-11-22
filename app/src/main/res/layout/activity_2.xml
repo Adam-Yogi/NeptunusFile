@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFCE7"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/bab_a"
+        android:layout_width="163dp"
+        android:layout_height="115dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cave" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="135dp"
+        android:layout_height="103dp"
+        android:layout_marginStart="24dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/chewy"
+        android:text="Sebelum Mengenal Tulisan "
+        android:textAlignment="center"
+        android:textColor="#562B25"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bab_a" />
+
+    <ImageView
+        android:id="@+id/bab_b"
+        android:layout_width="165dp"
+        android:layout_height="111dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/volcano"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="186dp"
+        android:layout_height="104dp"
+        android:layout_marginEnd="8dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/chewy"
+        android:text="Terbentuknya Kepulauan Indonesia"
+        android:textAlignment="center"
+        android:textColor="#562B25"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bab_b" />
+
+    <ImageView
+        android:id="@+id/bab_c"
+        android:layout_width="150dp"
+        android:layout_height="138dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/woman" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="145dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/chewy"
+        android:text="Mengenal Manusia Purba "
+        android:textAlignment="center"
+        android:textColor="#562B25"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bab_c" />
+
+    <ImageView
+        android:id="@+id/bab_d"
+        android:layout_width="167dp"
+        android:layout_height="141dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:srcCompat="@drawable/boot" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="209dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:fontFamily="@font/chewy"
+        android:text="Asal Usul Persebaran Nenek Moyang"
+        android:textAlignment="center"
+        android:textColor="#562B25"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bab_d" />
+
+    <ImageView
+        android:id="@+id/bab_e"
+        android:layout_width="156dp"
+        android:layout_height="131dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:srcCompat="@drawable/hunt" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="194dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="1dp"
+        android:fontFamily="@font/chewy"
+        android:text="Corak kehidupan Masyarakat Masa Pra-aksara "
+        android:textAlignment="center"
+        android:textColor="#562B25"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bab_e" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="149dp"
+        android:layout_height="73dp"
+        android:layout_marginEnd="30dp"
+        android:fontFamily="@font/chewy"
+        android:text="Perkembangan Teknologi "
+        android:textAlignment="center"
+        android:textColor="#562B25"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bab_f" />
+
+    <ImageView
+        android:id="@+id/bab_f"
+        android:layout_width="167dp"
+        android:layout_height="145dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:srcCompat="@drawable/fire" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
