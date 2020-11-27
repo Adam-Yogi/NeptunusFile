@@ -8,6 +8,25 @@
     tools:context=".BabB">
 
     <ImageView
+        android:id="@+id/quiz_b"
+        android:layout_width="182dp"
+        android:layout_height="54dp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/videoView2"
+        app:srcCompat="@drawable/quiz" />
+
+    <VideoView
+        android:id="@+id/videoView2"
+        android:layout_width="0dp"
+        android:layout_height="205dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <ImageView
         android:id="@+id/back_2"
         android:layout_width="51dp"
         android:layout_height="51dp"
@@ -15,16 +34,16 @@
         android:layout_marginTop="8dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/arrow" />
+        app:srcCompat="@drawable/back" />
 
     <ScrollView
         android:id="@+id/scrollView2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="300dp"
+        android:layout_marginTop="350dp"
         android:paddingLeft="8dp"
         android:paddingRight="8dp"
-        android:paddingBottom="300dp"
+        android:paddingBottom="350dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -33,32 +52,23 @@
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/patrick_hand"
+            android:fontFamily="@font/montserrat"
             android:text="@string/materi_b"
             android:textColor="#3E1E1A"
-            android:textSize="24sp" />
+            android:textSize="20sp"
+            android:textStyle="bold" />
     </ScrollView>
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="168dp"
-        android:layout_height="197dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="24dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/back_2"
-        app:srcCompat="@drawable/volcano" />
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="290dp"
-        android:layout_height="77dp"
-        android:layout_marginTop="8dp"
+        android:layout_width="311dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="4dp"
         android:fontFamily="@font/chewy"
         android:text="Terbentuknya Kepulauan Indonesia"
         android:textAlignment="center"
         android:textColor="#562B25"
-        android:textSize="30sp"
+        android:textSize="28sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/back_2"

@@ -8,6 +8,25 @@
     tools:context=".BabE">
 
     <ImageView
+        android:id="@+id/quiz_e"
+        android:layout_width="182dp"
+        android:layout_height="54dp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/videoView5"
+        app:srcCompat="@drawable/quiz" />
+
+    <VideoView
+        android:id="@+id/videoView5"
+        android:layout_width="0dp"
+        android:layout_height="210dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <ImageView
         android:id="@+id/back_e"
         android:layout_width="51dp"
         android:layout_height="51dp"
@@ -16,16 +35,16 @@
         app:layout_constraintEnd_toStartOf="@+id/textView4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/arrow" />
+        app:srcCompat="@drawable/back" />
 
     <ScrollView
         android:id="@+id/scrollView2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="300dp"
+        android:layout_marginTop="350dp"
         android:paddingLeft="8dp"
         android:paddingRight="8dp"
-        android:paddingBottom="300dp"
+        android:paddingBottom="350dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -34,28 +53,18 @@
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/patrick_hand"
+            android:fontFamily="@font/montserrat"
             android:text="@string/materi_e"
             android:textColor="#3E1E1A"
-            android:textSize="24sp" />
+            android:textSize="20sp"
+            android:textStyle="bold" />
     </ScrollView>
-
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="170dp"
-        android:layout_height="192dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/back_e"
-        app:srcCompat="@drawable/hunt" />
 
     <TextView
         android:id="@+id/textView13"
-        android:layout_width="330dp"
-        android:layout_height="78dp"
-        android:layout_marginTop="8dp"
+        android:layout_width="328dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="4dp"
         android:layout_marginEnd="8dp"
         android:fontFamily="@font/chewy"
         android:text="Corak kehidupan Masyarakat Masa Pra-aksara "

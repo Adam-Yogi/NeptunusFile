@@ -21,7 +21,14 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val creditgo = findViewById<ImageView>(R.id.credit)
+
+        creditgo.setOnClickListener{
+            val intent = Intent(this, Credit::class.java)
+
+            startActivity(intent)
+        }
+
     }
 
-    fun click(view: View) {}
 }

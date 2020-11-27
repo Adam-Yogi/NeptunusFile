@@ -23,6 +23,15 @@ class BabB : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val videoView = findViewById<VideoView>(R.id.videoView2)
+        val videoPath = "android.resource://" + packageName + "/" + R.raw.proses_evolusi_bumi
+        val uri = Uri.parse(videoPath)
+        videoView.setVideoURI(uri)
+
+        val mediaController = MediaController(this)
+        videoView.setMediaController(mediaController)
+        mediaController.setAnchorView(videoView)
+
 
     }
 }

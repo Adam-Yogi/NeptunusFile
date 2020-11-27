@@ -67,5 +67,13 @@ class Activity2 : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val home1 = findViewById<ImageView>(R.id.home1)
+
+        home1.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+
+            startActivity(intent)
+        }
+
     }
 }

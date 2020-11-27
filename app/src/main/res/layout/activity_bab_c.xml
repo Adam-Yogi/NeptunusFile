@@ -8,6 +8,18 @@
     tools:context=".BabC">
 
     <ImageView
+        android:id="@+id/quiz_c"
+        android:layout_width="182dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/videoView3"
+        app:srcCompat="@drawable/quiz" />
+
+    <ImageView
         android:id="@+id/back_C"
         android:layout_width="51dp"
         android:layout_height="51dp"
@@ -16,16 +28,16 @@
         app:layout_constraintEnd_toStartOf="@+id/textView4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/arrow" />
+        app:srcCompat="@drawable/back" />
 
     <ScrollView
         android:id="@+id/scrollView2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="300dp"
+        android:layout_marginTop="350dp"
         android:paddingLeft="8dp"
         android:paddingRight="8dp"
-        android:paddingBottom="300dp"
+        android:paddingBottom="350dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -34,27 +46,18 @@
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/patrick_hand"
+            android:fontFamily="@font/montserrat"
             android:text="@string/materi_c"
             android:textColor="#3E1E1A"
-            android:textSize="24sp" />
+            android:textSize="20sp"
+            android:textStyle="bold" />
     </ScrollView>
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="169dp"
-        android:layout_height="219dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/back_C"
-        app:srcCompat="@drawable/woman" />
 
     <TextView
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="13dp"
         android:layout_marginEnd="8dp"
         android:fontFamily="@font/chewy"
         android:text="Mengenal Manusia Purba"
@@ -64,4 +67,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/back_C"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <VideoView
+        android:id="@+id/videoView3"
+        android:layout_width="0dp"
+        android:layout_height="220dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
 </androidx.constraintlayout.widget.ConstraintLayout>

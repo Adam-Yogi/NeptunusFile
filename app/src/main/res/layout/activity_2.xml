@@ -10,14 +10,24 @@
     tools:context=".MainActivity">
 
     <ImageView
+        android:id="@+id/home1"
+        android:layout_width="77dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/homeb" />
+
+    <ImageView
         android:id="@+id/bab_a"
-        android:layout_width="163dp"
-        android:layout_height="115dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="134dp"
+        android:layout_height="134dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="10dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/cave" />
+        app:srcCompat="@drawable/subbab1" />
 
     <TextView
         android:id="@+id/textView2"
@@ -36,11 +46,11 @@
 
     <ImageView
         android:id="@+id/bab_b"
-        android:layout_width="165dp"
-        android:layout_height="111dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:src="@drawable/volcano"
+        android:layout_width="134dp"
+        android:layout_height="134dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="24dp"
+        android:src="@drawable/subbab2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -61,13 +71,13 @@
 
     <ImageView
         android:id="@+id/bab_c"
-        android:layout_width="150dp"
-        android:layout_height="138dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="134dp"
+        android:layout_height="134dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:srcCompat="@drawable/woman" />
+        app:srcCompat="@drawable/subbab3" />
 
     <TextView
         android:id="@+id/textView5"
@@ -84,13 +94,13 @@
 
     <ImageView
         android:id="@+id/bab_d"
-        android:layout_width="167dp"
-        android:layout_height="141dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="20dp"
+        android:layout_width="134dp"
+        android:layout_height="134dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="24dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7"
-        app:srcCompat="@drawable/boot" />
+        app:srcCompat="@drawable/subbab4" />
 
     <TextView
         android:id="@+id/textView8"
@@ -108,19 +118,18 @@
 
     <ImageView
         android:id="@+id/bab_e"
-        android:layout_width="156dp"
-        android:layout_height="131dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="134dp"
+        android:layout_height="134dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5"
-        app:srcCompat="@drawable/hunt" />
+        app:srcCompat="@drawable/subbab5" />
 
     <TextView
         android:id="@+id/textView9"
         android:layout_width="194dp"
         android:layout_height="95dp"
-        android:layout_marginStart="1dp"
         android:fontFamily="@font/chewy"
         android:text="Corak kehidupan Masyarakat Masa Pra-aksara "
         android:textAlignment="center"
@@ -133,7 +142,7 @@
         android:id="@+id/textView11"
         android:layout_width="149dp"
         android:layout_height="73dp"
-        android:layout_marginEnd="30dp"
+        android:layout_marginEnd="16dp"
         android:fontFamily="@font/chewy"
         android:text="Perkembangan Teknologi "
         android:textAlignment="center"
@@ -144,13 +153,13 @@
 
     <ImageView
         android:id="@+id/bab_f"
-        android:layout_width="167dp"
-        android:layout_height="145dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="134dp"
+        android:layout_height="134dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="24dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8"
-        app:srcCompat="@drawable/fire" />
+        app:srcCompat="@drawable/subbab6" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
